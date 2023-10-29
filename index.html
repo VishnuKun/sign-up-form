@@ -21,7 +21,7 @@
                 <div class="name">
                     <div class="name-input">
                         <label for="first-name"><input id="first-name" name="users-first-name" type="text"
-                                placeholder="First Name"></label>
+                                placeholder="First Name" required title="Enter your first name."></label>
                     </div>
                     <div class="name-input">
                         <label for="last-name"><input id="last-name" name="users-last-name" type="text"
@@ -29,19 +29,22 @@
                     </div>
                 </div>
                 <div class="mail">
-                    <label for="mail"><input type="email" placeholder="Email"></label>
+                    <label for="mail"><input type="email" placeholder="Email" required
+                            title="Fill your email address"></label>
                 </div>
                 <div class="username">
-                    <label for="user-name"><input id="user-name" type="text" placeholder="Username"></label>
+                    <label for="user-name"><input id="user-name" type="text" placeholder="Username" required
+                            title="Enter a unique username."></label>
                 </div>
                 <div class="passwords">
                     <div class="pswd">
                         <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
-                                name="pass-word"></label>
+                                name="pass-word" required
+                                title="Fill a strong password containing both cases letters, numbers and special characters."></label>
                     </div>
                     <div class="pswd">
                         <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
-                                name="pass-word"></label>
+                                name="pass-word" title="Retype password to confirm." required></label>
                     </div>
 
                 </div>
