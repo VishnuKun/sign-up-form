@@ -11,36 +11,37 @@
 
 <body>
     <div class="main-container">
-        <div class="logo-container"></div>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="">
+            <h1>VIVI</h1>
+        </div>
         <div class="form-container">
+            <h3>Join us by signing-up. Enter your details to be a part of the cult.</h3>
             <form action="https://httpbin.org/post" method="post">
-                <fieldset>
-                    <legend>Sign-up</legend>
-                    <div class="name">
-                        <label for="first-name"><input id="first-name" name="users-first-name" type="text"
-                                placeholder="First Name" required></label>
-                        <label for="last-name"><input id="last-name" name="users-last-name" type="text"
-                                placeholder="Last Name"></label>
-                    </div>
-                    <div class="mail">
-                        <label for="mail"><input type="email" placeholder="Email"></label>
-                    </div>
-                    <div class="username">
-                        <label for="user-name"><input type="text" placeholder="Username"></label>
-                    </div>
-                    <div class="passwords">
-                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
-                                name="pass-word"></label>
+                <div class="name">
+                    <label for="first-name"><input id="first-name" name="users-first-name" type="text"
+                            placeholder="First Name"></label>
+                    <label for="last-name"><input id="last-name" name="users-last-name" type="text"
+                            placeholder="Last Name"></label>
+                </div>
+                <div class="mail">
+                    <label for="mail"><input type="email" placeholder="Email"></label>
+                </div>
+                <div class="username">
+                    <label for="user-name"><input id="user-name" type="text" placeholder="Username"></label>
+                </div>
+                <div class="passwords">
+                    <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
+                            name="pass-word"></label>
 
-                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
-                                name="pass-word"></label>
-                    </div>
-                    <div class="submit-button">
-                        <button type="submit">Create Account</button>
-                    </div>
-                    <div class="sign-in">Already have an account? <a href="sign_in.html">Sign in</a>.</div>
-                </fieldset>
+                    <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
+                            name="pass-word"></label>
+                </div>
+                <div class="submit-button">
+                    <button type="submit">Create Account</button>
+                </div>
             </form>
+            <div class="sign-in">Already have an account? <a href="sign_in.html">Sign in</a>.</div>
         </div>
     </div>
 </body>
