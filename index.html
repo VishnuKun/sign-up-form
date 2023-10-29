@@ -16,13 +16,17 @@
             <h1>VIVI</h1>
         </div>
         <div class="form-container">
-            <h3>Join us by signing-up. Enter your details to be a part of the cult.</h3>
+            <h3>Sign-up</h3>
             <form action="https://httpbin.org/post" method="post">
                 <div class="name">
-                    <label for="first-name"><input id="first-name" name="users-first-name" type="text"
-                            placeholder="First Name"></label>
-                    <label for="last-name"><input id="last-name" name="users-last-name" type="text"
-                            placeholder="Last Name"></label>
+                    <div class="name-input">
+                        <label for="first-name"><input id="first-name" name="users-first-name" type="text"
+                                placeholder="First Name"></label>
+                    </div>
+                    <div class="name-input">
+                        <label for="last-name"><input id="last-name" name="users-last-name" type="text"
+                                placeholder="Last Name"></label>
+                    </div>
                 </div>
                 <div class="mail">
                     <label for="mail"><input type="email" placeholder="Email"></label>
@@ -31,11 +35,15 @@
                     <label for="user-name"><input id="user-name" type="text" placeholder="Username"></label>
                 </div>
                 <div class="passwords">
-                    <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
-                            name="pass-word"></label>
+                    <div class="pswd">
+                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
+                                name="pass-word"></label>
+                    </div>
+                    <div class="pswd">
+                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
+                                name="pass-word"></label>
+                    </div>
 
-                    <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
-                            name="pass-word"></label>
                 </div>
                 <div class="submit-button">
                     <button type="submit">Create Account</button>
