@@ -4,26 +4,34 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     line-height: 1.5;
 }
 
 img {
     width: auto;
-    max-height: 15vh;
-    margin: 10px;
+    max-height: 5rem;
+    margin: 30px;
 
 }
 
 .main-container {
-    background-image: url(images/freestocks-rBRX04_zQSc-unsplash.jpg);
-    height: 100%;
+    background-image: url(images/pawel-czerwinski-yUkcmOU07CQ-unsplash.jpg);
+    /* height: 100vh; */
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     text-align: center;
+    overflow: auto;
+}
+
+.logo-credits {
+    flex: 1;
+    margin: 20px;
+    /* overflow: auto; */
+
 }
 
 .logo-container {
@@ -35,8 +43,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    /* margin: 20px; */
+    /* margin-bottom: 50px; */
     font-size: 1rem;
+    min-height: max-content;
 }
 
 .form-container {
@@ -47,10 +57,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* overflow: auto;
+    height: 100%; */
 }
 
 form div {
     margin: 10px;
+    margin-inline: 50px;
 }
 
 form {
@@ -84,7 +97,7 @@ input:focus {
 
 button {
     /* box-shadow: inset 0px 1px 0px 0px #29bbff; */
-    background-color: #ffa39d;
+    background-color: #fe7e75;
     border-radius: 3px;
     border: 0px solid #0b0e07;
     display: inline-block;
@@ -97,16 +110,20 @@ button {
     text-decoration: none;
 }
 
-button:hover {background-color: #f86b61;}
+button:hover {
+    background-color: #f85246;
+}
 
 button:active {
     position: relative;
     top: 1px;
 }
 
-a {color: #f60f7be5;}
+a {
+    color: #fb4242e5;
+}
 
-a:visited {color: rgb(255, 10, 169);}
+
 
 .name,
 .passwords {
@@ -116,14 +133,39 @@ a:visited {color: rgb(255, 10, 169);}
     justify-content: space-between;
 }
 
-.name-input, .pswd {
-    width: 45%;
+.name-input,
+.pswd {
+    width: 44%;
     margin: 0;
     padding: 0;
 }
 
 h3 {
     max-width: 75ch;
+}
+
+h1 {
+    font-size: 1.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+.image-credits {
+    font-size: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.logo-credits {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in {
+    font-size: .9rem;
 }
 
 *:focus {
