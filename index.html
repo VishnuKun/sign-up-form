@@ -11,53 +11,47 @@
 
 <body>
     <div class="main-container">
-        <div class="logo-credits">
-            <div class="logo-container">
+        <div class="info-container">
+            <div class="logo">
                 <img src="images/logo.png" alt="">
-                <h1>VIVI</h1>
             </div>
-            <div class="image-credits">
-                Photo by <a href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a> on <a href="https://unsplash.com/">Unsplash</a>
-            </div>
+            <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus voluptas
+                labore, officia fugiat, numquam quas repellat, vero optio dolore deserunt.</div>
+            <div class="image-credits">Photo taken by <a href="#">Name</a> on <a href="#">Unsplash</a></div>
         </div>
         <div class="form-container">
-            <h3>Sign-up</h3>
+            <div class="intro">Join our community and start your journey today.</div>
             <form action="https://httpbin.org/post" method="post">
-                <div class="name">
-                    <div class="name-input">
-                        <label for="first-name"><input id="first-name" name="users-first-name" type="text"
-                                placeholder="First Name" required title="Enter your first name."></label>
-                    </div>
-                    <div class="name-input">
-                        <label for="last-name"><input id="last-name" name="users-last-name" type="text"
-                                placeholder="Last Name"></label>
+                <div class="form-group">
+                    <div class="firstname">
+                        <label for="first-name">First name <input type="text" id="first-name" name="first-name"></label>
                     </div>
                 </div>
-                <div class="mail">
-                    <label for="mail"><input type="email" placeholder="Email" required title="Fill your email address"
-                            name="email"></label>
-                </div>
-                <div class="username">
-                    <label for="user-name"><input id="user-name" type="text" placeholder="Username" required
-                            title="Enter a unique username." name="username"></label>
-                </div>
-                <div class="passwords">
-                    <div class="pswd">
-                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Password"
-                                name="password" required
-                                title="Fill a strong password containing both cases letters, numbers and special characters."></label>
+                <div class="form-group">
+                    <div class="username">
+                        <label for="user-name">Username <input type="text" id="user-name" name="user-name"></label>
                     </div>
-                    <div class="pswd">
-                        <label for="pass-word"><input type="password" id="pass-word" placeholder="Confirm Password"
-                                name="password_confirmed" title="Retype password to confirm." required></label>
-                    </div>
-
                 </div>
-                <div class="submit-button">
-                    <button type="submit">Create Account</button>
+                <div class="form-group">
+                    <div class="email-address">
+                        <label for="mail">Email <input type="email" id="first-name" name="email-address"></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="pass-word">
+                        <label for="pass-word">Password <input type="password" id="pass-word" name="pass-word"></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="confirm-password">
+                        <label for="confirm-password">Repeate Password<input type="password" id="confirm-password" name="confirm-password"></label>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <button>Create My Account</button>
+                    <div class="sign-in">Already a member? <a href="signin.html">Sign in</a></div>
                 </div>
             </form>
-            <div class="sign-in">Already have an account? <a href="sign_in.html">Sign in</a>.</div>
         </div>
     </div>
 </body>
