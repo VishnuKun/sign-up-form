@@ -141,6 +141,10 @@ button:hover {
     font-weight: 100;
 }
 
+.image-credits-second {
+    visibility: hidden;
+}
+
 /* for mobile devices  */
 @media only screen and (max-width: 700px) {
     .main-container {
@@ -157,5 +161,17 @@ button:hover {
 
     .form-container {
         border-radius: 40px 40px 0px 0px;
+    }
+
+    .image-credits-second {
+        /* color: white; */
+        position: static;
+        transform: none;
+        font-size: 0.8rem;
+        visibility: visible;
+    }
+
+    .image-credits-two {
+        margin: 70px 0px 10px 0px;
     }
 }
