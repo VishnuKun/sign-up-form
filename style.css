@@ -170,7 +170,6 @@ h1 {
     text-align: center;
     position: absolute;
     margin-bottom: 7px;
-    font-size: 0.8rem;
     font-weight: 100;
 }
 
@@ -209,7 +208,7 @@ h1 {
 
 
 .error-message {
-    background-color: #ff5249;
+    background-color: #f83e34;
     color: rgb(255, 255, 255);
     text-align: center;
     width: 100%;
