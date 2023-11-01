@@ -88,13 +88,13 @@ input:focus {
     box-shadow: 0px 0px .9px #007bff;
 }
 
-input {
+/* input {
     &:valid {
         background-image: url(images/check_small_FILL0_wght400_GRAD0_opsz24.png);
         background-repeat: no-repeat;
         background-position: right center;
     }
-}
+} */
 
 .intro {
     margin-bottom: 20px;
@@ -186,9 +186,6 @@ h1 {
     }
 
     .image-credits {
-        position: static;
-        transform: none;
-        font-size: 0.8rem;
         visibility: hidden;
     }
 
@@ -206,5 +203,16 @@ h1 {
 
     .image-credits-two {
         margin: 70px 0px 10px 0px;
+        font-weight: 100;
     }
 }
+
+
+.error-message {
+    background-color: #ff5249;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
