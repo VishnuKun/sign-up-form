@@ -1,11 +1,14 @@
 document.querySelector('form').addEventListener('submit', function (event) {
     var password = document.getElementById('pass-word').value;
     var confirmPassword = document.getElementById('confirm-password').value;
+    var passwordMatchMessage = document.getElementById('passwordMatchMessage');
 
     if (password !== confirmPassword) {
         event.preventDefault();
-        document.getElementById('passwordMatchMessage').textContent = 'Passwords do not match';
+        passwordMatchMessage.textContent = 'Passwords do not match!';
+        passwordMatchMessage.classList.add('error-message');
     } else {
-        document.getElementById('passwordMatchMessage').textContent = '';
+        passwordMatchMessage.textContent = '';
+        passwordMatchMessage.classList.remove('error-message');
     }
 });
