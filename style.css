@@ -1,3 +1,18 @@
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: teko;
+    src: url(fonts/Teko-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: mukta;
+    src: url(fonts/Mukta-Medium.ttf);
+}
+
 body {
     background-color: rgba(27, 24, 24, 0.174);
     backdrop-filter: blur(50px);
@@ -128,6 +143,10 @@ button:hover {
     gap: 15px;
     font-size: 1.5rem;
     font-weight: bolder;
+}
+
+h1 {
+    font-family: mukta;
 }
 
 .image-credits {
